@@ -1,0 +1,79 @@
+body
+{
+
+    height: 597px;
+    width:1366px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #FFF;
+}
+.my-img
+{
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%);
+    transform: translateY(-15%);
+}
+.my-img img
+{
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    -webkit-box-shadow: -1px 2px 22px 1px rgba(255,111,60,1);
+    -moz-box-shadow: -1px 2px 22px 1px rgba(255,111,60,1);
+    box-shadow: -1px 2px 22px 1px rgba(255,111,60,1)
+}
+.about
+{
+    height: 200px;
+    width: 550px;
+    background-color: #8e44ad;
+    border-radius: 0 126px 126px 0;
+}
+.skills
+{
+    height: 200px;
+    width: 550px;
+    background-color: #2980b9;
+    border-radius: 126px 0 0 126px;
+    margin: -200px 0 0px 816px
+}
+.skills img
+{
+    margin-top: 33px;
+    margin-right: 20px;
+}
+.vision
+{
+    height: 200px;
+    width: 550px;
+    background-color: #27ae60;
+    border-radius:0 126px 126px 0;
+    margin: -96px 0 0 0
+}
+.projects
+{
+    height: 200px;
+    width: 550px;
+    background-color: #c0392b;
+    border-radius: 126px 0 0 126px;
+    margin: -200px 0px 0 816px
+}
+div
+{
+    text-align: center;
+    color: white;
+}
+.h1
+{
+    font-size: xx-large;
+    font-weight: 600;
+    display: block;
+}
+p
+{
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.5;
+    font-size: 22px;
+    font-weight: lighter;
+}
